@@ -2,13 +2,7 @@ import { motion } from "framer-motion";
 
 export default function Hero() {
   return (
-    <section className="relative h-screen overflow-hidden">
-      {/* background */}
-      <img
-        src="/hero.jpg"
-        className="absolute inset-0 w-full h-full object-cover scale-105"
-      />
-
+    <section className="relative h-screen pt-40 overflow-hidden md:text-md">
       {/* soft floral overlay */}
       <div className="absolute inset-0 bg-gradient-to-b from-black/20 via-rose-900/30 to-[#2d1f1f]/70"></div>
 
@@ -23,7 +17,7 @@ export default function Hero() {
           initial={{ opacity: 0, y: 40 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1 }}
-          className="uppercase tracking-[0.5em] text-xs md:text-sm text-rose-100"
+          className="uppercase tracking-[0.5em] text-xs md:text-md text-rose-100"
         >
           Together With Their Families
         </motion.p>

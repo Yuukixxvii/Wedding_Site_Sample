@@ -2,10 +2,10 @@ import LoveStory from "../sections/LoveStory";
 
 export default function Story() {
   return (
-    <main className="min-h-screen bg-gradient-to-b from-black/20 via-rose-900/30 to-[#2d1f1f]/70 text-stone-800 pt-32">
+    <main className="min-h-screen bg-gradient-to-b from-black/20 via-rose-900/30 to-[#2d1f1f]/70 text-stone-800 pt-50">
       {/* page heading */}
-      <section className="text-center px-6">
-        <p className="uppercase tracking-[0.3em] text-rose-400 text-sm">
+      <section className="text-center">
+        <p className="uppercase tracking-[0.3em] text-stone-800 text-md">
           Our Journey
         </p>
 

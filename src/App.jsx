@@ -63,7 +63,7 @@ function AnimatedRoutes() {
 export default function App() {
   return (
     <BrowserRouter>
-      <div className="bg-amber-700/40 min-h-screen text-stone-800">
+      <div className="bg-amber-700/40 min-h-screen text-stone-800 overflow-x-hidden">
         <MusicPlayer />
         <Navbar />
         <FloatingPetals />

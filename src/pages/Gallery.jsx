@@ -7,7 +7,7 @@ export default function Gallery() {
   const [selected, setSelected] = useState(null);
 
   return (
-    <section className="py-24 text-center bg-gradient-to-b from-black/20 via-rose-900/30 to-[#2d1f1f]/70">
+    <section className="py-50 text-center bg-gradient-to-b from-black/20 via-rose-900/30 to-[#2d1f1f]/70">
       <h2 className="text-5xl font-bold text-white font-['Playfair_Display']">
         Our Moments
       </h2>
