@@ -53,14 +53,14 @@ export default function Hero() {
           <a
             href="/Letter.pdf"
             download
-            className="px-8 py-4 rounded-full bg-rose-500/80 hover:bg-rose-600 transition shadow-2xl backdrop-blur-xl"
+            className="px-8 py-4 rounded-full bg-rose-500/80 hover:bg-rose-600 transition shadow-2xl backdrop-blur-xl hover:text-black"
           >
             Download Invitation
           </a>
 
           <Link
             to="/event"
-            className="px-8 py-4 rounded-full bg-white/10 border border-white/20 hover:bg-white/20 transition backdrop-blur-xl"
+            className="px-8 py-4 rounded-full bg-white/10 border border-white/20 hover:bg-white/20 transition backdrop-blur-xl hover:text-black"
           >
             View Event
           </Link>
